@@ -25,8 +25,8 @@ func _process(delta):
 func create_fruit():
 		
 		var fruit = fruit_r.instance()		
-		new_x = rand_range(10,900)
-		new_y = rand_range(30,1000)
+		new_x = rand_range(10,get_viewport().size.x - 10)
+		new_y = rand_range(30,get_viewport().size.y - 10)
 		fruit.global_position = Vector2(new_x, new_y)
 		add_child(fruit)
 		
