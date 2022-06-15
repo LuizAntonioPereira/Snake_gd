@@ -1,11 +1,9 @@
-extends Node
+extends Area2D
 
 
 # Declare member variables here.
-var lis_body = []
-var point_level = 0
-var power = 1
-var create = true
+
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -15,3 +13,12 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+
+func fruit_entered(body):
+	if body.is_in_group("head"):
+		Global.point_level =+ 1
+		queue_free()
+		if Global.create == false:
+			Global.create = true
+	pass # Replace with function body.
