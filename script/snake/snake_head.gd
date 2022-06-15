@@ -5,7 +5,7 @@ extends KinematicBody2D
 var velocity = 200
 var move = Vector2.ZERO
 var dead = false
-
+var eat = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -43,3 +43,9 @@ func get_input():
 func move_snake(t):
 	
 	position += move * t * velocity * Global.power
+	
+func body_snake():
+	if eat == false:
+		Global.
+		Global.
+	pass	

@@ -3,6 +3,8 @@ extends Node
 
 # Declare member variables here.
 var lis_body = []
+var tail = preload("res://assets/art/tail_snake.png")
+var body_spawner = preload("res://assets/art/tail_snake.png")
 var point_level = 0
 var power = 1
 var create = true

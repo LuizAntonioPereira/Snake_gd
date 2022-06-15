@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://script/snake_head.gd" type="Script" id=1]
+[ext_resource path="res://script/snake/snake_head.gd" type="Script" id=1]
 [ext_resource path="res://assets/art/head_snake.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]

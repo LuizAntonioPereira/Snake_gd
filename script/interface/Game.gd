@@ -10,8 +10,7 @@ var new_y
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	#level_node.text = str(Global.point_level)
-	#print(Global.point_level)
+
 	pass # Replace with function body.
 
 
@@ -19,7 +18,7 @@ func _ready():
 func _process(delta):
 	
 	level_node.text = str(Global.point_level)
-	print(str(Global.point_level))
+
 	randomize()
 	if Global.create == true:
 		create_fruit()
