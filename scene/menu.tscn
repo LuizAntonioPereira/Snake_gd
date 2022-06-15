@@ -5,30 +5,30 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
-margin_right = 338.0
-margin_bottom = 600.0
+margin_right = 424.0
+margin_bottom = 720.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
-margin_left = 342.0
-margin_right = 681.0
-margin_bottom = 600.0
+margin_left = 428.0
+margin_right = 852.0
+margin_bottom = 720.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer2"]
-margin_right = 339.0
-margin_bottom = 298.0
+margin_right = 424.0
+margin_bottom = 358.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
 
 [node name="Label" type="Label" parent="VBoxContainer2/VBoxContainer2"]
-margin_top = 142.0
-margin_right = 339.0
-margin_bottom = 156.0
+margin_top = 172.0
+margin_right = 424.0
+margin_bottom = 186.0
 size_flags_vertical = 1
 text = "SNAKE"
 align = 1
@@ -36,9 +36,9 @@ valign = 1
 clip_text = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer2"]
-margin_top = 302.0
-margin_right = 339.0
-margin_bottom = 600.0
+margin_top = 362.0
+margin_right = 424.0
+margin_bottom = 720.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
@@ -46,13 +46,13 @@ size_flags_vertical = 3
 position = Vector2( 0, -345 )
 
 [node name="Button" type="Button" parent="VBoxContainer2/VBoxContainer"]
-margin_right = 339.0
+margin_right = 424.0
 margin_bottom = 20.0
 text = "Iniciar"
 
 [node name="VBoxContainer3" type="VBoxContainer" parent="."]
-margin_left = 685.0
-margin_right = 1024.0
-margin_bottom = 600.0
+margin_left = 856.0
+margin_right = 1280.0
+margin_bottom = 720.0
 size_flags_horizontal = 3
 size_flags_vertical = 3

@@ -17,7 +17,7 @@ func _ready():
 
 func fruit_entered(body):
 	if body.is_in_group("head"):
-		Global.point_level =+ 1
+		Global.point_level += 1
 		queue_free()
 		if Global.create == false:
 			Global.create = true

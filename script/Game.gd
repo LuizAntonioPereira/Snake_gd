@@ -4,19 +4,22 @@ extends Node2D
 # Declare member variables here.
 onready var fruit_b = preload("res://scene/fruit_blue.tscn")
 onready var fruit_r = load("res://scene/fruit_red.tscn")
-onready var level_node = $level.text 
+onready var level_node = $level
 var new_x
 var new_y 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	#level_node.text = str(Global.point_level)
+	#print(Global.point_level)
 	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	
-	level_node = str(Global.point_level)
+	level_node.text = str(Global.point_level)
+	print(str(Global.point_level))
 	randomize()
 	if Global.create == true:
 		create_fruit()
