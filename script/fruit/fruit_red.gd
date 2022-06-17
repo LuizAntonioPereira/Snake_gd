@@ -16,9 +16,17 @@ func _ready():
 
 
 func fruit_entered(body):
+	
 	if body.is_in_group("head"):
 		Global.point_level += 1
 		queue_free()
+		
 		if Global.create == false:
 			Global.create = true
-	pass # Replace with function body.
+			
+		if Global.eat == false:
+			Global.eat = true
+			
+		if Global.create_snake == false:
+			Global.create_snake = true
+			
